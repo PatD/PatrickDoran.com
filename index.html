@@ -36,17 +36,32 @@
 
 
 
-
- <div id="cloud-circle" style="top: -320px;left: -120px;"></div>
+  <div class="cloud" id="cloudOne"></div>
+  <div class="cloud" id="cloudTwo"></div>
+  <div class="cloud" id="cloudThree"></div>
   
+
+
   <svg width="0" height="0">
-    <filter id="filter">
-      <feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="10"  />
+    <filter id="cloudFilterOne">
+      <feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="10" seed="0"  />
       <feDisplacementMap in="SourceGraphic" scale="180"  />
     </filter>
   </svg>
 
+  <svg width="0" height="0">
+    <filter id="cloudFilterTwo">
+      <feTurbulence type="fractalNoise" baseFrequency=".011" numOctaves="10" seed="20" />
+      <feDisplacementMap in="SourceGraphic" scale="180"  />
+    </filter>
+  </svg>
 
+  <svg width="0" height="0">
+    <filter id="cloudFilterThree">
+      <feTurbulence type="fractalNoise" baseFrequency=".013" numOctaves="10" seed="200" />
+      <feDisplacementMap in="SourceGraphic" scale="180"  />
+    </filter>
+  </svg>
 
 
 

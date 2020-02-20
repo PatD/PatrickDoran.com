@@ -629,14 +629,32 @@ https://codepen.io/matchboxhero/pen/RLebOY?editors=1100
 
 
 
-
-#cloud-circle {
-    width: 500px;
-    height: 275px;
-    border-radius: 50%;
-    filter: url(#filter);
-    box-shadow: 400px 400px 60px 0px #fff;
+.cloud{
+   border-radius: 50%;
+   width: 500px;
+  height: 275px;
     position: absolute;
-    /*top: -320px;*/
-    /*left: -120px;*/
+ 
+}
+
+
+#cloudOne {
+    filter: url(#cloudFilterOne);
+    box-shadow: 400px 400px 60px 0px #fff;
+       top: -420px;
+    left: 420px;
+}
+
+#cloudTwo {
+    filter: url(#cloudFilterTwo);
+    box-shadow: 400px 400px 60px 0px #fff;
+       top: -20px;
+    left: -320px;
+}
+
+#cloudThree {
+    filter: url(#cloudFilterThree);
+    box-shadow: 400px 400px 60px 0px #fff;
+       top: 320px;
+    right: 220px;
 }
