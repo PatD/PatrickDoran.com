@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="bigstyles.css">
     <link rel="stylesheet" href="patrickdoran.css">
+
+
+    <link href=/js/app.01215197.js rel=modulepreload as=script>
+    <link href=/js/chunk-vendors.29276359.js rel=modulepreload as=script>
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Patrick is a Designer and Front-End Developer working near Raleigh, North Carolina.">
@@ -38,7 +42,7 @@
 
   <div class="cloud" id="cloudOne"></div>
   <div class="cloud" id="cloudTwo"></div>
-  <div class="cloud" id="cloudThree"></div>
+  <!-- <div class="cloud" id="cloudThree"></div> -->
   
 
 
@@ -56,12 +60,12 @@
     </filter>
   </svg>
 
-  <svg width="0" height="0">
+  <!-- <svg width="0" height="0">
     <filter id="cloudFilterThree">
       <feTurbulence type="fractalNoise" baseFrequency=".013" numOctaves="10" seed="200" />
       <feDisplacementMap in="SourceGraphic" scale="180"  />
     </filter>
-  </svg>
+  </svg> -->
 
 
 
@@ -111,17 +115,7 @@
 
           <div id="knowledge">
             <div class="bolt"></div>
-            <h3>Specializing in</h3>
-              <ul>
-                <li>Web Development</li>
-                <li>SharePoint and 0365</li>
-                <li>Team & Project Leadership</li>
-                <li>User Experience Design</li>
-                <li>Vue.js</li>
-                <li>Modern Front-End Development</li>
-              </ul>
-
-              <em>This little note here is made with Vue.js, built with Vue CLI!</em>
+            <div id=vueApp></div>
           </div>
 
 
@@ -132,6 +126,13 @@
             <h4>Lately, Patrick has spent a lot of time on <span>Vue.js</span>, SharePoint and Office 365 development, design, and JavaScript development.</h4>
         
           </div>
+
+
+          <div id="projectBox" class="paper">
+            <p>Projects here</p>
+          </div>
+
+
       </main>
 
  
@@ -151,6 +152,13 @@
    
    
       <script src="patrickdoran.js"></script>
+
+
+      <script type=module src=/js/chunk-vendors.29276359.js></script>
+      <script type=module src=/js/app.01215197.js></script>
+      <script>!function () { var e = document, t = e.createElement("script"); if (!("noModule" in t) && "onbeforeload" in t) { var n = !1; e.addEventListener("beforeload", function (e) { if (e.target === t) n = !0; else if (!e.target.hasAttribute("nomodule") || !n) return; e.preventDefault() }, !0), t.type = "module", t.src = ".", e.head.appendChild(t), t.remove() } }();</script>
+      <script src=/js/chunk-vendors-legacy.2348101f.js nomodule></script>
+      <script src=/js/app-legacy.f702db7f.js nomodule></script>
    
       <script>
           (function(p,a,t,r,i,c,k){p['GoogleAnalyticsObject']=i;p[i]=p[i]||function(){
