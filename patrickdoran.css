@@ -66,8 +66,8 @@ body{
 
 .wood{
     background-color: #52410d;
-    filter: sepia(14);
-    -webkit-filter: sepia(14);
+    /* filter: sepia(14);
+    -webkit-filter: sepia(14); */
     text-shadow: 2px 2px 3px #39270f,-2px -2px 3px #39270f;
     font-family:'NationalPark-Regular';
     text-transform:uppercase;
@@ -188,8 +188,8 @@ main{max-width:900px;margin:0 auto;padding:0;}
 
 
 
-        main #patch { 
-                grid-area: 1 / 3 / 2 / 4; 
+        main #patch {
+                grid-area: 1 / 3 / 2 / 4;
                 background:red;}
 
 
@@ -315,13 +315,53 @@ grid-row-gap: 0px;
 }
 
 
+.grassGrowth{
+        display: block;
+        /* z-index: 10; */
+        width: 100px;
+        background-image: url(img/grass-growth.svg);
+        bottom: 0px;
+        /* left: -33px; */
+        position: relative;
+        height: 100px;
+        background-repeat: no-repeat;
+}
 
+#leftFooterPost span:nth-child(1){
+        top: 105px;
+        left: -35px;
+        filter:brightness(2);
+}
 
+#leftFooterPost span:nth-child(2){
+        top: 15px;
+        left: -20px;
+        filter:brightness(2.2);
+}
+#leftFooterPost span:nth-child(3){
+    top: -100px;
+    left: 15px;
+    filter: brightness(2);
+    transform: scale(-1,1);
+}
 
+#rightFooterPost span:nth-child(1){
+        top: 105px;
+        left: -35px;
+        filter:brightness(2);
+}
 
-
-
-
+#rightFooterPost span:nth-child(2){
+        top: 15px;
+        left: -20px;
+        filter:brightness(2.2);
+}
+#rightFooterPost span:nth-child(3){
+    top: -100px;
+    left: 15px;
+    filter: brightness(2);
+    transform: scale(-1,1);
+}
 
 
 
@@ -422,8 +462,8 @@ https://codepen.io/matchboxhero/pen/RLebOY?editors=1100
     overflow: hidden;
     position: relative;
     height:100px;
-    z-index: 0;
-    top: 500px;
+    z-index: -1;
+    top: 700px;
     
 }
 
@@ -659,6 +699,7 @@ https://codepen.io/matchboxhero/pen/RLebOY?editors=1100
    width: 500px;
   height: 275px;
     position: absolute;
+    z-index:-1;
  
 }
 
