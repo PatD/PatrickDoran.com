@@ -1,0 +1,19 @@
+{
+  "name": "patrickdorancom2020",
+  "version": "1.0.0",
+  "description": "PatrickDoran.com Portfolio site.",
+  "main": "patrickdoran.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatD/PatrickDoran.com.git"
+  },
+  "author": "Patrick Doran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatD/PatrickDoran.com/issues"
+  },
+  "homepage": "https://github.com/PatD/PatrickDoran.com#readme"
+}
