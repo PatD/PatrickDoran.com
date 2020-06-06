@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="bigstyles.css">
+    <link rel="stylesheet" href="patrickdoran.css">
+
+
+    <link href=/js/app.01215197.js rel=modulepreload as=script>
+    <link href=/js/chunk-vendors.29276359.js rel=modulepreload as=script>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Patrick is a Designer and Front-End Developer working near Raleigh, North Carolina.">
+    <title>Patrick Doran - Front-End Developer, SharePoint Expert, and UI Designer</title>
+  </head>
+  <body>
+
+
+<div id="birdBox">
+	
+
+	<div class="bird-container bird-container--one">
+		<div class="bird bird--one"></div>
+	</div>
+	
+	<div class="bird-container bird-container--two">
+		<div class="bird bird--two"></div>
+	</div>
+	
+	<div class="bird-container bird-container--three">
+		<div class="bird bird--three"></div>
+	</div>
+	
+	<div class="bird-container bird-container--four">
+		<div class="bird bird--four"></div>
+	</div>
+	
+</div>
+
+
+
+  <div class="cloud" id="cloudOne"></div>
+  <div class="cloud" id="cloudTwo"></div>
+  <!-- <div class="cloud" id="cloudThree"></div> -->
+  
+
+
+  <svg width="0" height="0">
+    <filter id="cloudFilterOne">
+      <feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="10" seed="0"  />
+      <feDisplacementMap in="SourceGraphic" scale="180"  />
+    </filter>
+  </svg>
+
+  <svg width="0" height="0">
+    <filter id="cloudFilterTwo">
+      <feTurbulence type="fractalNoise" baseFrequency=".011" numOctaves="10" seed="20" />
+      <feDisplacementMap in="SourceGraphic" scale="180"  />
+    </filter>
+  </svg>
+
+  <!-- <svg width="0" height="0">
+    <filter id="cloudFilterThree">
+      <feTurbulence type="fractalNoise" baseFrequency=".013" numOctaves="10" seed="200" />
+      <feDisplacementMap in="SourceGraphic" scale="180"  />
+    </filter>
+  </svg> -->
+
+
+
+
+
+
+
+
+    <div id="rainCover" class='wood wood-border'></div>
+
+    <div id="signwrapper">
+
+      <header id="sign" class='wood wood-border'>
+        <div class="bolt"></div>
+        <div class="bolt"></div>
+
+
+        <h1 title="Patrick Doran">Patrick Doran</h1>
+<hr />
+            
+
+            <img src="/img/me.jpg" alt="Patrick Doran's face looks like this." />
+        
+          <strong>American Web Developer, Designer</strong>
+          <hr />
+          <em>Open Daily | Carving sites since 1998</em>
+          <!-- <nav>
+            <ul>
+              <li><a id='nav-projects' target="_self" href="#projects">Work</a></li>
+              <li><a id='nav-details' target="_self" href="#info">Info</a></li>
+            </ul>
+          </nav> -->
+
+
+          <div class="bolt"></div>
+        <div class="bolt"></div>
+      </header>
+      
+        <div id="leftPost" class="wood"></div>
+        <div id="rightPost" class="wood"></div>
+     
+    </div>
+
+
+      <main class="wood wood-border">
+          <div id="patch">Text</div>
+
+          <div id="knowledge">
+            <div class="bolt"></div>
+            <div id=vueApp></div>
+          </div>
+
+
+          <div id="aboutText" class="paper">
+            <h2>Patrick is an American <span>Front-End Developer</span>, Designer, &amp; SharePoint Expert working in Raleigh, North Carolina.</h2>
+            <h3>He's been designing and <span>building</span> products on screens for humans since 1998.</h3>
+            <h3>Patrick designs <em>mobile</em> interfaces, creates wireframes, and obsesses about usability and <mark>performance.</mark></h3>
+            <h4>Lately, Patrick has spent a lot of time on <span>Vue.js</span>, SharePoint and Office 365 development, design, and JavaScript development.</h4>
+        
+          </div>
+
+
+          <div id="projectBox" class="paper">
+            <p>Projects here</p>
+          </div>
+
+
+      </main>
+
+ 
+
+    <!-- main id="projects">
+        <section class="main">
+         <div id="app"></div>
+
+        </section>
+      </main -->
+
+    <footer>
+      <div id="leftFooterPost" class="wood">
+       <span class="grassGrowth"></span>
+       <span class="grassGrowth"></span>
+       <span class="grassGrowth"></span>
+      </div>
+      <div id="rightFooterPost" class="wood">
+        <span class="grassGrowth"></span>
+       <span class="grassGrowth"></span>
+       <span class="grassGrowth"></span>
+      </div>
+      <div id="footerContent"></div>
+    </footer>
+   
+   
+      <script src="patrickdoran.js"></script>
+
+      <!-- VueJS component -->
+      <script type=module src=/js/chunk-vendors.29276359.js></script>
+      <script type=module src=/js/app.01215197.js></script>
+      <script>!function () { var e = document, t = e.createElement("script"); if (!("noModule" in t) && "onbeforeload" in t) { var n = !1; e.addEventListener("beforeload", function (e) { if (e.target === t) n = !0; else if (!e.target.hasAttribute("nomodule") || !n) return; e.preventDefault() }, !0), t.type = "module", t.src = ".", e.head.appendChild(t), t.remove() } }();</script>
+      <script src=/js/chunk-vendors-legacy.2348101f.js nomodule></script>
+      <script src=/js/app-legacy.f702db7f.js nomodule></script>
+   
+      <script>
+          (function(p,a,t,r,i,c,k){p['GoogleAnalyticsObject']=i;p[i]=p[i]||function(){
+          (p[i].q=p[i].q||[]).push(arguments)},p[i].l=1*new Date();c=a.createElement(t),
+          k=a.getElementsByTagName(t)[0];c.async=1;c.src=r;k.parentNode.insertBefore(c,k)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-21388707-1', 'auto');
+          ga('send', 'pageview');
+      </script>
+  </body>
+</html>
