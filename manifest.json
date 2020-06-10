@@ -4,7 +4,7 @@
     "description": "Learn about Patrick Doran, a developer and designer near Raleigh, North Carolina.",
     "lang": "en-US",
     "start_url": "https://patrickdoran.com",
-    "display": "browser",
+    "display": "minimal-ui",
     "theme_color": "#444",
     "icons": [
       {
