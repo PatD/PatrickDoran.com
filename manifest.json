@@ -1,0 +1,16 @@
+{
+    "name": "Patrick Doran, Developer and Interaction Designer",
+    "short_name": "Patrick Doran",
+    "description": "Learn about Patrick Doran, a developer and designer near Raleigh, North Carolina.",
+    "lang": "en-US",
+    "start_url": "https://patrickdoran.com",
+    "display": "browser",
+    "theme_color": "#444",
+    "icons": [
+      {
+        "src": "https://patrickdoran.com/apple-touch-icon-180x180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ]
+  }
