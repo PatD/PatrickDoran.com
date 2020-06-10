@@ -4,13 +4,10 @@ const OFFLINE_VERSION = 3;
 const CACHE_NAME = 'offline';
 
 // Customize this with a different URL if needed.
-const OFFLINE_URL = 'index.html';
-
-var urlsToCache = [
+const OFFLINE_URL = ['index.html',
     '/patrick_doran_web_developer.jpg',
     '/patrick_doran_work_history.jpg',
-    '/new.css'
-];
+    '/new.css'];
   
 
 self.addEventListener('install', (event) => {
@@ -20,7 +17,6 @@ self.addEventListener('install', (event) => {
     // Setting {cache: 'reload'} in the new request will ensure that the response
     // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
     await cache.add(new Request(OFFLINE_URL, {cache: 'reload'}));
-    await cache.add(new Request(urlsToCache, {cache: 'reload'}));
   })());
 });
 
