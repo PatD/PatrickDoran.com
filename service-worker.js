@@ -30,7 +30,7 @@ self.addEventListener('fetch', function(event) {
         });
         return response;
       }).catch(function () {
-        return caches.match('/sw-test/gallery/myLittleVader.jpg');
+        return console.log('Error setting service worker')
       });
     }
   }));
